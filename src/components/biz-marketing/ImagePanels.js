@@ -18,7 +18,7 @@ const ImagePanels = ({panelItems}) => (
 
                 <div className="column is-6">
                     <section className="section">
-                        <h3 class="is-size-2">{item.title}</h3>
+                        <h3 class="is-size-2-desktop is-size-4-tablet">{item.title}</h3>
                         <p class="has-text-grey">{item.text}</p>
                     </section>
                 </div>
