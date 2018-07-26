@@ -21,8 +21,8 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 ### Access Locally
 ```
-$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
-$ cd [REPO_NAME]
+$ git clone https://github.com/hanchennz/gatsby-starter-netlify-cms-hack26.git
+$ cd gatsby-starter-netlify-cms-hack26
 $ yarn
 $ npm run develop
 ```
