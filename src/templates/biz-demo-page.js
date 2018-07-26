@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import ImagePanels from '../components/biz-marketing/ImagePanels'
 
-export const BizDemoTemplate = ({title}) => {
+export const BizDemoTemplate = ({title, panelItems}) => {
     return (
         <section className="section section--gradient">
             <div className="container">
@@ -13,6 +14,7 @@ export const BizDemoTemplate = ({title}) => {
                             </h2>
                         </div>
                     </div>
+                    <ImagePanels panelItems={panelItems}/>
                 </div>
             </div>
         </section>
@@ -29,6 +31,7 @@ const BizDemoPage = ({data}) => {
     return (
         <BizDemoTemplate
             title={post.frontmatter.title}
+            panelItems={post.frontmatter.image_panels}
         />
     )
 };
@@ -44,7 +47,13 @@ export const bizDemoPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        image_panels {
+            image
+            title
+            text
+            orientation
+        }
       }
     }
   }
-`
+`;
