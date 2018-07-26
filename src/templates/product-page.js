@@ -173,6 +173,10 @@ export const productPageQuery = graphql`
           heading
           description
         }
+        testimonials {
+          author
+          quote
+        }
         main {
           heading
           description
@@ -188,10 +192,6 @@ export const productPageQuery = graphql`
             alt
             image
           }
-        }
-        testimonials {
-          author
-          quote
         }
         full_image
         pricing {
