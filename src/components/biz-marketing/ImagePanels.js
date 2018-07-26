@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const ImagePanels = ({panelItems}) => (
-    <div>
+    <div class="image-panels">
         {panelItems.map(item => (
-            <div key={item.image} className="columns">
+            <div key={item.image} className="columns image-panels--panel">
                 {
                     item.orientation === 'left' &&
                     <div className="column is-6">
@@ -18,8 +18,8 @@ const ImagePanels = ({panelItems}) => (
 
                 <div className="column is-6">
                     <section className="section">
-                        <h3>{item.title}</h3>
-                        <p>{item.text}</p>
+                        <h3 class="is-size-2">{item.title}</h3>
+                        <p class="has-text-grey">{item.text}</p>
                     </section>
                 </div>
 

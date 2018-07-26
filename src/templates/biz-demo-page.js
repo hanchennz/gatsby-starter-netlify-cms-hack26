@@ -14,8 +14,8 @@ export const BizDemoTemplate = ({title, panelItems}) => {
                             </h2>
                         </div>
                     </div>
-                    <ImagePanels panelItems={panelItems}/>
                 </div>
+                <ImagePanels panelItems={panelItems}/>
             </div>
         </section>
     )

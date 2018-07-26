@@ -40,3 +40,12 @@ $primary-invert: $kaldi-red-invert
   margin-top: 0 !important
 
 @import "~bulma"
+
+.image-panels
+  .image-panels--panel
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    &:not(:last-child)
+      border-bottom: 1px solid $grey-lighter
