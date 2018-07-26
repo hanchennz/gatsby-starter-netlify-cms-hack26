@@ -37,6 +37,7 @@ export const ProductPageTemplate = ({
                   {title}
                 </h2>
               </div>
+              <Testimonials testimonials={testimonials} />
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-2">
@@ -87,7 +88,6 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
                 style={{ backgroundImage: `url(${fullImage})` }}
