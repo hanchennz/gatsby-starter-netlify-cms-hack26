@@ -1,14 +1,17 @@
 import React from 'react';
+import bannerLogo from '../../img/people.png';
 
-const TopBanner = ({bannerTitle, bannerDescription, bannerLogo}) => (
+const TopBanner = () => (
     <div className='top-banner-container'>
         <div className='top-banner'>
             <div className='banner-text'>
                 <div>
-                    {bannerTitle}
+                    <b>Connect</b> with your community, 
+                    and <b>grow</b> your business
                 </div>
                 <div className='banner-text-subscript'>
-                    {bannerDescription}
+                    Start by finding and claiming your Yelp business page for free,
+                    or <span class='highlightText'>add your business here</span>
                 </div>
             </div>
             <div className='banner-image'>

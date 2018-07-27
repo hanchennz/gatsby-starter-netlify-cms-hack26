@@ -1,10 +1,6 @@
 ---
 templateKey: biz-marketing-page
 title: restaurants
-top_banner:
-  - bannerLogo: /img/flagGirl.png
-  - bannerTitle: Connect with your community, and grow your business
-  - bannerDescription: Start by finding and claiming your Yelp business page for free, or add your business here
 image_panels:
   - image: /img/hckt-illust-02-2x.png
     orientation: left
