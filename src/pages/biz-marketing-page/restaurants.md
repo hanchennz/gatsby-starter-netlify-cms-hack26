@@ -39,11 +39,9 @@ bottom_banner:
 markdown: |-
   Test markdown
 
-  \`\``
-
+  ```
   Code snippet
-
-  \`\``
+  ```
 
   [Link](google.com)
 ---
