@@ -1,6 +1,6 @@
 ---
 templateKey: biz-marketing-page
-title: restaurants
+title: Restaurants
 top_banner:
   bannerDescription: >-
     Start by finding and claiming your Yelp business page for free, or add your
@@ -45,10 +45,4 @@ markdown: |-
 
   [Link](google.com)
 ---
-Test markdown
 
-```
-Code snippet
-```
-
-[Link](google.com)
