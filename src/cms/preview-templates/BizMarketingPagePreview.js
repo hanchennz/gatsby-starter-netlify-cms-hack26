@@ -6,8 +6,12 @@ const BizMarketingPagePreview = ({entry, getAsset}) => {
     const imagePanels = entry.getIn(['data', 'image_panels']);
     const panelItems = imagePanels ? imagePanels.toJS() : [];
 
+    const topBannerData = entry.getIn(['data', 'top_banner']);
+    const topBanner = topBannerData ? topBannerData.toJS() : {};
+
     return (
         <BizMarketingTemplate
+            topBanner={topBanner}
             panelItems={panelItems}
         />
     );
