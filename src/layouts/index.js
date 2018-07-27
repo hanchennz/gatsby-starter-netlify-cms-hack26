@@ -1,15 +1,30 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import Navbar from '../components/Navbar'
-import './all.sass'
+import BottomBanner from '../components/biz-marketing/BottomBanner';
+import FindYourBusiness from '../components/biz-marketing/FindYourBusiness';
+import Footer from '../components/biz-marketing/Footer';
+import ReadMoreComponent from '../components/biz-marketing/ReadMoreComponent';
+import TopBanner from '../components/biz-marketing/TopBanner';
+import YelpNavBar from '../components/biz-marketing/YelpNavBar';
+
+import './all.sass';
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Home | Gatsby + Netlify CMS" />
-    <Navbar />
-    <div>{children()}</div>
+    <Helmet title="Yelp Marketing" />
+    <YelpNavBar />
+    <div className='main-content'>
+    	<TopBanner />
+    	<FindYourBusiness />
+    	<ReadMoreComponent />
+
+    	<div>{children()}</div>
+
+    	<BottomBanner />
+    	<Footer />
+    </div>
   </div>
 )
 
