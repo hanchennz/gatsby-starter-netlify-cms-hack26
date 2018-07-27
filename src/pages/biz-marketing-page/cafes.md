@@ -7,13 +7,6 @@ top_banner:
     business here
   bannerLogo: /img/hckt-illust-01-2x.png
   bannerTitle: 'Connect with your community, and grow your business'
-bottom_banner:
-  description: >-
-    Get out in front of the crowd and start talking directly to your customers.
-    Sign up online and unlock the benefits today.
-  image: /img/door.png
-  title: 'Start by finding and claiming your Yelp business page for free'
-  callToAction: 'Find Your Business'
 read_more: How Yelp connects people with great local businesses
 image_panels:
   - image: /img/products-grid1.jpg
@@ -24,5 +17,12 @@ image_panels:
       coffee’s journey. We personally visit each farm to make sure the
       conditions are optimal for the plants, farmers and the local environment.
     title: Great coffee with no compromises
+bottom_banner:
+  callToAction: Find Your Business
+  description: >-
+    Get out in front of the crowd and start talking directly to your customers.
+    Sign up online and unlock the benefits today.
+  image: /img/hckt-illust-05-2x.png
+  title: Start by finding and claiming your Yelp business page for free
 ---
 
