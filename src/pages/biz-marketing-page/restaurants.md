@@ -45,4 +45,10 @@ markdown: |-
 
   [Link](google.com)
 ---
+Test markdown
 
+```
+Code snippet
+```
+
+[Link](google.com)

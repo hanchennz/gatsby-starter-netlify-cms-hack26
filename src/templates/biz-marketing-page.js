@@ -36,7 +36,7 @@ const BizMarketingPage = ({data}) => {
             panelItems={markdownRemark.frontmatter.image_panels}
             bottomBanner={markdownRemark.frontmatter.bottom_banner}
             readMore={markdownRemark.frontmatter.read_more}
-            markdown={markdownRemark.frontmatter.markdown}
+            markdown={markdownRemark.html}
         />
     )
 };
@@ -50,6 +50,7 @@ export default BizMarketingPage;
 export const bizMarketingPageQuery = graphql`
   query BizMarketingPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         bottom_banner {
             title
