@@ -1,5 +1,6 @@
 ---
 templateKey: biz-marketing-page
+title: restaurants
 image_panels:
   - image: /img/flavor_wheel.jpg
     orientation: right
@@ -22,3 +23,4 @@ image_panels:
       adding great photos. Manage your business photos for free. 
     title: Put Your Best Face Forward
 ---
+
