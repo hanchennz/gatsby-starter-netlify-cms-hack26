@@ -9,10 +9,17 @@ const BizMarketingPagePreview = ({entry, getAsset}) => {
     const topBannerData = entry.getIn(['data', 'top_banner']);
     const topBanner = topBannerData ? topBannerData.toJS() : {};
 
+    const bottomBannerData = entry.getIn(['data', 'bottom_banner']);
+    const bottomBanner = bottomBannerData ? bottomBannerData.toJS() : {};
+
+    const readMore = entry.getIn(['data', 'read_more']);
+
     return (
         <BizMarketingTemplate
             topBanner={topBanner}
             panelItems={panelItems}
+            bottomBanner={bottomBanner}
+            readMore={readMore}
         />
     );
 };

@@ -1,19 +1,17 @@
 import React from 'react';
-import bannerLogo from '../../img/door.png';
 
-const BottomBanner = () => (
+const BottomBanner = ({title, description, image, callToAction}) => (
     <div className='bottom-banner-container'>
         <div className='banner-logo'>
-            <img src={bannerLogo}></img>
+            <img src={image}></img>
         </div>
         <div className='banner-text'>
-            Start by finding and claiming your Yelp business page for free
+            {title}
         </div>
         <div className='banner-text-sub'>
-            Get out in front of the crowd and start talking directly to your customers. 
-            Sign up online and unlock the benefits today. 
+            {description}
         </div>
-        <div className='find-btn'>Find Your Business</div>
+        <div className='find-btn'>{callToAction}</div>
     </div>
 )
 

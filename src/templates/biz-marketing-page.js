@@ -6,18 +6,18 @@ import FindYourBusiness from '../components/biz-marketing/FindYourBusiness';
 import ReadMoreComponent from '../components/biz-marketing/ReadMoreComponent';
 import BottomBanner from '../components/biz-marketing/BottomBanner';
 
-export const BizMarketingTemplate = ({topBanner, panelItems}) => {
+export const BizMarketingTemplate = ({bottomBanner, topBanner, panelItems, readMore}) => {
     return (
         <div>
             <TopBanner {...topBanner} />
             <FindYourBusiness />
-            <ReadMoreComponent />
+            <ReadMoreComponent readMore={readMore} />
 
             <div className="biz-marketing-content">
                 <ImagePanels panelItems={panelItems}/>
             </div>
 
-            <BottomBanner />
+            <BottomBanner {...bottomBanner} />
         </div>
     )
 };
@@ -32,6 +32,9 @@ const BizMarketingPage = ({data}) => {
         <BizMarketingTemplate
             topBanner={markdownRemark.frontmatter.top_banner}
             panelItems={markdownRemark.frontmatter.image_panels}
+            bottomBanner={markdownRemark.frontmatter.bottom_banner}
+            readMore={markdownRemark.frontmatter.read_more}
+
         />
     )
 };
@@ -46,6 +49,12 @@ export const bizMarketingPageQuery = graphql`
   query BizMarketingPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+        bottom_banner {
+            title
+            description
+            callToAction
+            image
+        }
         top_banner {
             bannerTitle
             bannerDescription
@@ -57,6 +66,7 @@ export const bizMarketingPageQuery = graphql`
             text
             orientation
         }
+        read_more
       }
     }
   }

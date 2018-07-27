@@ -22,6 +22,14 @@ image_panels:
       Custom don't pick addresses - they pick place. Make your business shine by
       adding great photos. Manage your business photos for free. 
     title: Put Your Best Face Forward
+read_more: How Yelp connects people with great local businesses
+bottom_banner:
+  description: >-
+    Get out in front of the crowd and start talking directly to your customers.
+    Sign up online and unlock the benefits today.
+  image: /img/door.png
+  title: 'Start by finding and claiming your Yelp business page for free'
+  callToAction: 'Find Your Business'
 top_banner:
   bannerDescription: >-
     Start by finding and claiming your Yelp business page for free, or add your
