@@ -13,4 +13,5 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "biz-marketing-page"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: ImagePanels, name: image_panels, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}, {label: Image, name: image, widget: image}, {label: Orientation, name: orientation, widget: select, options: ["left", "right"]}]}
