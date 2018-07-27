@@ -2,9 +2,11 @@
 templateKey: biz-marketing-page
 title: cafes
 top_banner:
-  bannerLogo: /img/flagGirl.png
-  bannerTitle: Connect with your community, and grow your business
-  bannerDescription: Start by finding and claiming your Yelp business page for free, or add your business here
+  bannerDescription: >-
+    Start by finding and claiming your Yelp business page for free, or add your
+    business here
+  bannerLogo: /img/hckt-illust-01-2x.png
+  bannerTitle: 'Connect with your community, and grow your business'
 image_panels:
   - image: /img/products-grid1.jpg
     orientation: right
