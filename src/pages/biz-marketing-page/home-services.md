@@ -1,6 +1,6 @@
 ---
 templateKey: biz-marketing-page
-title: home services
+title: Home Services
 top_banner:
   bannerDescription: >-
     Start by finding and claiming your Yelp business page for free, or add your
