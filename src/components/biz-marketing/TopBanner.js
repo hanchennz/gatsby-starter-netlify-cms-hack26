@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerLogo from '../../img/people.png';
+import bannerLogo from '../../img/flagGirl.png';
 
 const TopBanner = () => (
     <div className='top-banner-container'>
@@ -14,8 +14,10 @@ const TopBanner = () => (
                     or <span class='highlightText'>add your business here</span>
                 </div>
             </div>
-            <div className='banner-image'>
-                <img src={bannerLogo}></img>
+            <div className='banner-container'>
+                <div className='banner-image'>
+                    <img src={bannerLogo}></img>
+                </div>
             </div>
         </div>
     </div>

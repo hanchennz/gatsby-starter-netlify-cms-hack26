@@ -1,7 +1,11 @@
 import React from 'react';
+import bannerLogo from '../../img/door.png';
 
 const BottomBanner = () => (
     <div className='bottom-banner-container'>
+        <div className='banner-logo'>
+            <img src={bannerLogo}></img>
+        </div>
         <div className='banner-text'>
             Start by finding and claiming your Yelp business page for free
         </div>
