@@ -5,8 +5,9 @@ import TopBanner from '../components/biz-marketing/TopBanner';
 import FindYourBusiness from '../components/biz-marketing/FindYourBusiness';
 import ReadMoreComponent from '../components/biz-marketing/ReadMoreComponent';
 import BottomBanner from '../components/biz-marketing/BottomBanner';
+import { HTMLContent } from '../components/Content';
 
-export const BizMarketingTemplate = ({bottomBanner, topBanner, panelItems, readMore}) => {
+export const BizMarketingTemplate = ({bottomBanner, topBanner, panelItems, readMore, markdown}) => {
     return (
         <div>
             <TopBanner {...topBanner} />
@@ -17,6 +18,7 @@ export const BizMarketingTemplate = ({bottomBanner, topBanner, panelItems, readM
                 <ImagePanels panelItems={panelItems}/>
             </div>
 
+            <HTMLContent className="content" content={markdown} />
             <BottomBanner {...bottomBanner} />
         </div>
     )
@@ -34,7 +36,7 @@ const BizMarketingPage = ({data}) => {
             panelItems={markdownRemark.frontmatter.image_panels}
             bottomBanner={markdownRemark.frontmatter.bottom_banner}
             readMore={markdownRemark.frontmatter.read_more}
-
+            markdown={markdownRemark.frontmatter.markdown}
         />
     )
 };
@@ -67,6 +69,7 @@ export const bizMarketingPageQuery = graphql`
             orientation
         }
         read_more
+        markdown
       }
     }
   }

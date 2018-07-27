@@ -18,3 +18,4 @@ collections:
       - {label: "ReadMore", name: "read_more", widget: "string"}
       - {label: ImagePanels, name: image_panels, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}, {label: Image, name: image, widget: image}, {label: Orientation, name: orientation, widget: select, options: ["left", "right"]}]}
       - {label: BottomBanner, name: bottom_banner, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Image, name: image, widget: image}, {label: CallToAction, name: callToAction, widget: string}]}
+      - {label: "Markdown", name: "markdown", widget: "markdown"}

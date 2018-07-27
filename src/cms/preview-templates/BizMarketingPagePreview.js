@@ -14,12 +14,15 @@ const BizMarketingPagePreview = ({entry, getAsset}) => {
 
     const readMore = entry.getIn(['data', 'read_more']);
 
+    const markdown = entry.getIn(['data', 'markdown_test']);
+
     return (
         <BizMarketingTemplate
             topBanner={topBanner}
             panelItems={panelItems}
             bottomBanner={bottomBanner}
             readMore={readMore}
+            markdown={markdown}
         />
     );
 };

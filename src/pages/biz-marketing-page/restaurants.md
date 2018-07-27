@@ -36,7 +36,7 @@ bottom_banner:
     Sign up online and unlock the benefits today.
   image: /img/hckt-illust-05-2x.png
   title: Start by finding and claiming your Yelp business page for free
-markdown_test: |-
+markdown: |-
   Test markdown
 
   \`\``
