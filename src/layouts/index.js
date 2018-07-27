@@ -16,13 +16,9 @@ const TemplateWrapper = ({ children }) => (
     <Helmet title="Yelp Marketing" />
     <YelpNavBar />
     <div className='main-content'>
-    	<TopBanner />
-    	<FindYourBusiness />
-    	<ReadMoreComponent />
 
     	<div>{children()}</div>
 
-    	<BottomBanner />
     	<Footer />
     </div>
   </div>
