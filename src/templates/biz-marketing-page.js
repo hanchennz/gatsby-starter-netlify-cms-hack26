@@ -15,11 +15,11 @@ BizMarketingTemplate.propTypes = {
 };
 
 const BizMarketingPage = ({data}) => {
-    const {markdownRemark: post} = data;
+    const {markdownRemark} = data;
 
     return (
         <BizMarketingTemplate
-            panelItems={post.frontmatter.image_panels}
+            panelItems={markdownRemark.frontmatter.image_panels}
         />
     )
 };
