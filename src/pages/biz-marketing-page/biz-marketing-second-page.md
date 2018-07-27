@@ -1,6 +1,5 @@
 ---
 templateKey: biz-marketing-page
-title: Second Page
 image_panels:
   - image: /img/products-grid1.jpg
     orientation: right

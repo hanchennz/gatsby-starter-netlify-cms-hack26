@@ -1,6 +1,5 @@
 ---
 templateKey: biz-marketing-page
-title: Biz Marketing Page Demo for Biz Hack26
 image_panels:
   - image: /img/flavor_wheel.jpg
     orientation: right
