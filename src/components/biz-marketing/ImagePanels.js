@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const ImagePanels = ({panelItems}) => (
-    <div class="image-panels">
+    <div className="image-panels">
         {panelItems.map(item => (
             <div key={item.image} className="columns image-panels--panel">
                 {
@@ -18,8 +18,8 @@ const ImagePanels = ({panelItems}) => (
 
                 <div className="column is-6">
                     <section className="section">
-                        <h3 class="is-size-2-desktop is-size-4-tablet">{item.title}</h3>
-                        <p class="has-text-grey">{item.text}</p>
+                        <h3 className="is-size-2-desktop is-size-4-tablet">{item.title}</h3>
+                        <p className="has-text-grey">{item.text}</p>
                     </section>
                 </div>
 

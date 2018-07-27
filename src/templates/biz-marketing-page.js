@@ -9,7 +9,7 @@ import BottomBanner from '../components/biz-marketing/BottomBanner';
 export const BizMarketingTemplate = ({topBanner, panelItems}) => {
     return (
         <div>
-            <TopBanner topBanner={topBanner} />
+            <TopBanner {...topBanner} />
             <FindYourBusiness />
             <ReadMoreComponent />
 
@@ -23,7 +23,6 @@ export const BizMarketingTemplate = ({topBanner, panelItems}) => {
 };
 
 BizMarketingTemplate.propTypes = {
-    title: PropTypes.string.isRequired,
 };
 
 const BizMarketingPage = ({data}) => {

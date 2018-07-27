@@ -13,7 +13,7 @@ const Navbar = () => (
                 <ul className='nav-links'>
                     <li className='active'>Why Yelp</li>
                     <li>How Does It Work</li>
-                    <li>Yelp Products <i class="down"></i></li>
+                    <li>Yelp Products <i className="down"></i></li>
                 </ul>
             </div> 
 

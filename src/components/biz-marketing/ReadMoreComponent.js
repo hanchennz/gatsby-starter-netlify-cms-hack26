@@ -5,7 +5,7 @@ const ReadMoreComponent = () => (
 	    <div className='read-more-text'>
 	    	How Yelp connects people with great local businesses
 	    </div>
-	    <div className='read-more-circle'><i class="down-white"></i></div>
+	    <div className='read-more-circle'><i className="down-white"></i></div>
 	</div>
 )
 
