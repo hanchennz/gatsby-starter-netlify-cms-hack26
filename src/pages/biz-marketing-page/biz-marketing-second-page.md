@@ -1,5 +1,6 @@
 ---
 templateKey: biz-marketing-page
+title: cafes
 image_panels:
   - image: /img/products-grid1.jpg
     orientation: right
