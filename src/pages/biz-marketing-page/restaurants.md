@@ -5,8 +5,8 @@ top_banner:
   bannerDescription: >-
     Start by finding and claiming your Yelp business page for free, or add your
     business here
-  bannerLogo: /img/hckt-illust-02-2x.png
-  bannerTitle: Claim your biz on Yelp
+  bannerLogo: /img/hckt-illust-01-2x.png
+  bannerTitle: Why you should claim your business on Yelp today
 read_more: this is the readmore sectino
 image_panels:
   - image: /img/hckt-illust-03-2x.png
@@ -16,6 +16,12 @@ image_panels:
       control how your community sees your business on Yelp. Respond publicly or
       privately to reviews of your free business listing. 
     title: Respond to Reviews
+  - image: /img/hckt-illust-03-2x.png
+    orientation: left
+    text: >-
+      Custom don't pick addresses - they pick place. Make your business shine by
+      adding great photos. Manage your business photos for free. 
+    title: Pick your attributes
   - image: /img/hckt-illust-02-2x.png
     orientation: right
     text: >-
@@ -23,12 +29,6 @@ image_panels:
       business straight from the source - You! Respond quickly to inquiries and
       capture new customers. Share updates or specials for free. 
     title: Request a Quote (RAQ)
-  - image: /img/hckt-illust-03-2x.png
-    orientation: right
-    text: >-
-      Custom don't pick addresses - they pick place. Make your business shine by
-      adding great photos. Manage your business photos for free. 
-    title: alfaewlifmaewifjaew
 bottom_banner:
   callToAction: Find Your Business
   description: >-
