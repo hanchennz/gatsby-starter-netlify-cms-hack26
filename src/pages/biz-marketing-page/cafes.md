@@ -6,7 +6,7 @@ top_banner:
     Start by finding and claiming your Yelp business page for free, or add your
     business here
   bannerLogo: /img/hckt-illust-01-2x.png
-  bannerTitle: 'Connect with your community, and grow your business Test'
+  bannerTitle: What else
 read_more: How Yelp connects people with great local businesses
 image_panels:
   - image: /img/products-grid1.jpg
