@@ -5,7 +5,7 @@ top_banner:
   bannerDescription: >-
     Start by finding and claiming your Yelp business page for free, or add your
     business here
-  bannerLogo: /img/download.jpeg
+  bannerLogo: /img/ice_cream_1.jpeg
   bannerTitle: What else afdsafdsa
 read_more: How Yelp connects people with great local businesses
 image_panels:
