@@ -8,7 +8,7 @@ public_folder: /img
 collections:
   - name: "biz-marketing-page"
     label: "Biz Marketing Page"
-    folder: "src/pages/biz-marketing-page"
+    folder: "cms-data/pages/biz-marketing-page"
     create: true
     slug: "{{slug}}"
     fields:
@@ -22,7 +22,7 @@ collections:
 
   - name: "new-biz-marketing-page"
     label: "New Biz Marketing Page"
-    folder: "src/pages/new-biz-marketing-page"
+    folder: "cms-data/pages/new-biz-marketing-page"
     create: true
     slug: "{{slug}}"
     fields:
