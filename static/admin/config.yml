@@ -19,3 +19,17 @@ collections:
       - {label: ImagePanels, name: image_panels, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}, {label: Image, name: image, widget: image}, {label: Orientation, name: orientation, widget: select, options: ["left", "right"]}]}
       - {label: BottomBanner, name: bottom_banner, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Image, name: image, widget: image}, {label: CallToAction, name: callToAction, widget: string}]}
       - {label: "Markdown", name: "markdown", widget: "markdown"}
+
+  - name: "new-biz-marketing-page"
+    label: "New Biz Marketing Page"
+    folder: "src/pages/new-biz-marketing-page"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "biz-marketing-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: TopBanner, name: top_banner, widget: object, fields: [{label: BannerTitle, name: bannerTitle, widget: string}, {label: BannerDescription, name: bannerDescription, widget: text}, {label: BannerLogo, name: bannerLogo, widget: image}]}
+      - {label: "ReadMore", name: "read_more", widget: "string"}
+      - {label: ImagePanels, name: image_panels, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: string}, {label: Image, name: image, widget: image}, {label: Orientation, name: orientation, widget: select, options: ["left", "right"]}]}
+      - {label: BottomBanner, name: bottom_banner, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Image, name: image, widget: image}, {label: CallToAction, name: callToAction, widget: string}]}
+      - {label: "Markdown", name: "markdown", widget: "markdown"}
