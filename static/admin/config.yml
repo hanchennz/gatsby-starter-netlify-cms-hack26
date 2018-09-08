@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: hanchennz/gatsby-starter-netlify-cms-hack26-data
+  repo: hanchennz/gatsby-starter-netlify-cms-hack26
 
 media_folder: static/img
 public_folder: /img
