@@ -1,14 +1,14 @@
 backend:
   name: github
-  repo: hanchennz/gatsby-starter-netlify-cms-hack26
+  repo: hanchennz/gatsby-starter-netlify-cms-hack26-data
 
-media_folder: static/img
+media_folder: data/img
 public_folder: /img
 
 collections:
   - name: "biz-marketing-page"
     label: "Biz Marketing Page"
-    folder: "cms-data/pages/biz-marketing-page"
+    folder: "data/pages/biz-marketing-page"
     create: true
     slug: "{{slug}}"
     fields:
@@ -22,7 +22,7 @@ collections:
 
   - name: "new-biz-marketing-page"
     label: "New Biz Marketing Page"
-    folder: "cms-data/pages/new-biz-marketing-page"
+    folder: "data/pages/new-biz-marketing-page"
     create: true
     slug: "{{slug}}"
     fields:

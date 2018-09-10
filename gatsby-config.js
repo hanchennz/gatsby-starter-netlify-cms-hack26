@@ -5,19 +5,31 @@ module.exports = {
     plugins: [
         'gatsby-plugin-react-helmet',
         'gatsby-plugin-sass',
+        // {
+        //     resolve: 'gatsby-source-filesystem',
+        //     options: {
+        //         path: `${__dirname}/cms-data/pages`,
+        //         name: 'pages',
+        //     },
+        // },
+        // {
+        //     resolve: 'gatsby-source-filesystem',
+        //     options: {
+        //         path: `${__dirname}/cms-data/img`,
+        //         name: 'images',
+        //     },
+        // },
         {
-            resolve: 'gatsby-source-filesystem',
+            resolve: `@mosch/gatsby-source-github`,
             options: {
-                path: `${__dirname}/cms-data/pages`,
-                name: 'pages',
-            },
-        },
-        {
-            resolve: 'gatsby-source-filesystem',
-            options: {
-                path: `${__dirname}/cms-data/img`,
-                name: 'images',
-            },
+                repository: "gatsby-starter-netlify-cms-hack26-data",
+                tree: true,
+                releases: false,
+                user: "hanchennz",
+                secrets: {
+                    token: "e6f51bd5394e76183cfc5f79b28724adca13f618",
+                }
+            }
         },
         'gatsby-plugin-sharp',
         'gatsby-transformer-sharp',
