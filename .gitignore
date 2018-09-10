@@ -8,3 +8,4 @@ static/admin/*.bundle.*
 .DS_Store
 .idea/
 yarn-error.log
+.env.*

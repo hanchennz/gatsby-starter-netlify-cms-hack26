@@ -1,3 +1,8 @@
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
     siteMetadata: {
         title: 'Gatsby + Netlify CMS Starter',
@@ -27,7 +32,7 @@ module.exports = {
                 releases: false,
                 user: "hanchennz",
                 secrets: {
-                    token: "e6f51bd5394e76183cfc5f79b28724adca13f618",
+                    token: process.env.GITHUB_TOKEN,
                 }
             }
         },
