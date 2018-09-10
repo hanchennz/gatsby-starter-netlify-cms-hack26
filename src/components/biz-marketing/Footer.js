@@ -1,6 +1,6 @@
 import React from 'react';
-import iOS from '../../../cms-data/img/iosDownload.png';
-import android from '../../../cms-data/img/androidDownload.png';
+import iOS from '../../img/iosDownload.png';
+import android from '../../img/androidDownload.png';
 
 const Footer = () => (
     <div className='footer-container'>

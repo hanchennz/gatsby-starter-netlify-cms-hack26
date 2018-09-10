@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../cms-data/img/YelpLogo.png';
+import logo from '../../img/YelpLogo.png';
 
 const Navbar = () => (
     <nav className='nav-bar-container'>

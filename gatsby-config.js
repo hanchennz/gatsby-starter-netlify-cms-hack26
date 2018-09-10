@@ -13,14 +13,14 @@ module.exports = {
         // {
         //     resolve: 'gatsby-source-filesystem',
         //     options: {
-        //         path: `${__dirname}/cms-data/pages`,
+        //         path: `${__dirname}/deprecated-cms-data/pages`,
         //         name: 'pages',
         //     },
         // },
         // {
         //     resolve: 'gatsby-source-filesystem',
         //     options: {
-        //         path: `${__dirname}/cms-data/img`,
+        //         path: `${__dirname}/deprecated-cms-data/img`,
         //         name: 'images',
         //     },
         // },
