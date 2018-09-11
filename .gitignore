@@ -9,4 +9,4 @@ static/admin/*.bundle.*
 .idea/
 yarn-error.log
 .env.*
-./static/img
+static/img/*

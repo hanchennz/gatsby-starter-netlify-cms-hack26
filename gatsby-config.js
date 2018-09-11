@@ -1,4 +1,3 @@
-
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
@@ -36,8 +35,8 @@ module.exports = {
                 }
             }
         },
-        'gatsby-plugin-sharp',
         'gatsby-transformer-sharp',
+        'gatsby-plugin-sharp',
         {
             resolve: 'gatsby-transformer-remark',
             options: {

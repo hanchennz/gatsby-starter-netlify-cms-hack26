@@ -48,30 +48,30 @@ BizMarketingPage.propTypes = {
 export default BizMarketingPage;
 
 export const bizMarketingPageQuery = graphql`
-  query BizMarketingPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        bottom_banner {
-            title
-            description
-            callToAction
-            image
+    query BizMarketingPage($id: String!) {
+        markdownRemark(id: { eq: $id }) {
+            html
+            frontmatter {
+                bottom_banner {
+                    title
+                    description
+                    callToAction
+                    image
+                }
+                top_banner {
+                    bannerTitle
+                    bannerDescription
+                    bannerLogo
+                }
+                image_panels {
+                    image
+                    title
+                    text
+                    orientation
+                }
+            read_more
+            markdown
+            }
         }
-        top_banner {
-            bannerTitle
-            bannerDescription
-            bannerLogo
-        }
-        image_panels {
-            image
-            title
-            text
-            orientation
-        }
-        read_more
-        markdown
-      }
     }
-  }
 `;
