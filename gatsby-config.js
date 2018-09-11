@@ -24,7 +24,7 @@ module.exports = {
         //     },
         // },
         {
-            resolve: `@mosch/gatsby-source-github`,
+            resolve: `gatsby-source-github`,
             options: {
                 repository: "gatsby-starter-netlify-cms-hack26-data",
                 tree: true,

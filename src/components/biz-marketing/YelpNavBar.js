@@ -15,7 +15,7 @@ const Navbar = () => (
                     <li>How Does It Work</li>
                     <li>Yelp Products <i className="down"></i></li>
                 </ul>
-            </div> 
+            </div>
 
             <div className='page-menu'>
                 <ul className='page-links'>
@@ -26,10 +26,10 @@ const Navbar = () => (
                 <div className='btn signUp'>Sign Up</div>
                 <div className='btnText'>or</div>
                 <div className='btn logIn'>Log In</div>
-            </div> 
+            </div>
 
         </div>
     </nav>
-)
+);
 
 export default Navbar;
