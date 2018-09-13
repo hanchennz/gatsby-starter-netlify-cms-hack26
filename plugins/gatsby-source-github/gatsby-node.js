@@ -74,17 +74,16 @@ exports.sourceNodes = (() => {
             }).filter(patternFilter).map(function (file) {
                 return octo.fromUrl(file.url).fetch().then(function (result) {
                     let mimeType = mime.lookup(file.path);
-                    let buffer;
-                    let content;
+
+                    const buffer = Buffer.from(result.content, 'base64');
+                    const content = buffer.toString('utf8');
+
+                    console.log('file', file);
+
                     if (['image/png', 'image/jpeg', 'image/svg+xml'].includes(mimeType)) {
-                        buffer = Buffer.from(result.content, 'base64');
-                        content = buffer.toString('utf8');
                         require("fs").writeFile(`${process.env.PWD}/static/${file.path}`, buffer, 'base64', function (err) {
                             if (err) throw err;
                         })
-                    } else {
-                        buffer = Buffer.from(result.content, 'base64');
-                        content = buffer.toString('utf8');
                     }
                     const type = fileType(buffer);
                     mimeType = type ? type.mime : mime.lookup(file.path) || 'plaintext';

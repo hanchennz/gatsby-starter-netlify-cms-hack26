@@ -42,7 +42,7 @@ exports.sourceNodes = async (
               // const mimeType = type
               //   ? type.mime
               //   : mime.lookup(file.path) || 'plaintext'
-              let mimeType = mime.lookup(file.path)
+              let mimeType = mime.lookup(file.path);
               let buffer;
               let content;
 
